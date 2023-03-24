@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useCounter from "./useCounter";
 
 function CounterOne() {
-  const [counter, increase, decrease, reset] = useCounter(0,1);
+  const [counter, increase, decrease, reset] = useCounter(0, 1);
 
   return (
     <div>

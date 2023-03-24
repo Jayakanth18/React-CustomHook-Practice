@@ -5,8 +5,7 @@ import { useState } from "react";
 
 //value is how many step is increased.
 
-
-function useCounter(initialCounter = 0,value) {
+function useCounter(initialCounter = 0, value) {
   const [counter, setCounter] = useState(initialCounter);
 
   function increase() {

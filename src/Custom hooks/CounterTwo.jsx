@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useCounter from "./useCounter";
 
 function CounterTwo() {
-  const [count, increase, decrease, reset] = useCounter();
+  const [count, increase, decrease, reset] = useCounter(5,5);
   return (
     <div>
       <h2>Count valus is: {count}</h2>
